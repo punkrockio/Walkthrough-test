@@ -41,3 +41,11 @@ Route::get('/authour/logout', 'AuthourController@logout');
 Route::get('/authour/{id}/post', 'AuthourController@showPosts');
 Route::resource('/authour', 'AuthourController');
 
+
+// ------------------------------------
+// 		 Walkthrough stufffffff
+// ------------------------------------
+
+Route::resource('/walkthrough', 'WalkthroughController');
+
+
